@@ -1,4 +1,5 @@
 module.exports = {
+  "extends": "standard",
   "parser": "babel-eslint",
   "ecmaFeatures": {
     "arrowFunctions": true,
