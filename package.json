@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-touchlay",
+  "version": "0.1.0",
+  "description": "TouchLay eslint config",
+  "homepage": "https://github.com/TouchLay/eslint-config-touchlay",
+  "main": "index.js",
+  "repository": "TouchLay/eslint-config-touchlay",
+  "keywords": [
+    "meteor",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "linting",
+    "linter",
+    "config",
+    "ecma",
+    "style",
+    "guide"
+  ],
+  "author": "TouchLay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TouchLay/eslint-config-touchlay/issues"
+  }
+}
