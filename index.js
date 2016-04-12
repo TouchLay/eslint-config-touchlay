@@ -1,6 +1,11 @@
 module.exports = {
-  "extends": "standard",
+  "extends": [ "standard", "plugin:import/errors", "plugin:import/warnings" ],
+  "plugins": [ "react" ],
   "parser": "babel-eslint",
+  "rules": {
+    "allow-parens": 0,
+    "comma-dangle": "always-multiline",
+  },
   "ecmaFeatures": {
     "arrowFunctions": true,
     "blockBindings": true,
@@ -23,14 +28,6 @@ module.exports = {
     "templateStrings": true,
   },
   "env": {
-    "browser": true,
     "es6": true,
-    "jasmine": true,
-    "jquery": true,
-    "meteor": true,
-    "mocha": true,
-    "mongo": true,
-    "node": true,
-    "phantomjs": true,
   }
 }
