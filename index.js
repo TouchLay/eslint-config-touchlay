@@ -4,7 +4,7 @@ module.exports = {
   "parser": "babel-eslint",
   "rules": {
     "allow-parens": 0,
-    "comma-dangle": "always-multiline",
+    "comma-dangle": [2, "always-multiline"],
   },
   "ecmaFeatures": {
     "arrowFunctions": true,
