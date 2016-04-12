@@ -33,3 +33,16 @@ You can additionally set environments, pick some!
   }
 }
 ```
+
+### Atom
+
+In the editor [Atom](https://atom.io/), you can install a linter as follows:
+
+```
+apm install linter-eslint
+```
+
+Restart Atom afterwards to prevent issues.
+
+![https://i.imgur.com/dzgzv11.png](https://i.imgur.com/dzgzv11.png)
+![https://i.imgur.com/K2g1OQc.png](https://i.imgur.com/K2g1OQc.png)
