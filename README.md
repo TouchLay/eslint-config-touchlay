@@ -2,7 +2,7 @@
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
-StandardJS with ES6 features, babel, JSX, [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react), [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import) and special rules ([dangling commas for multiline statements](https://medium.com/@nikgraf/why-you-should-enforce-dangling-commas-for-multiline-statements-d034c98e36f8) and single argument arrow functions without parens enforced).
+StandardJS with ES6 features, babel, JSX, [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react), [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import) and [dangling commas for multiline statements](https://medium.com/@nikgraf/why-you-should-enforce-dangling-commas-for-multiline-statements-d034c98e36f8).
 
 ## Install
 

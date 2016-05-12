@@ -3,7 +3,6 @@ module.exports = {
   "plugins": [ "react" ],
   "parser": "babel-eslint",
   "rules": {
-    "arrow-parens": [2, "as-needed"],
     "comma-dangle": [2, "always-multiline"],
   },
   "ecmaFeatures": {
