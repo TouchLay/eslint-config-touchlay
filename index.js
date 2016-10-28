@@ -1,9 +1,20 @@
 module.exports = {
-  "extends": [ "standard", "plugin:import/errors", "plugin:import/warnings" ],
-  "plugins": [ "react" ],
   "parser": "babel-eslint",
+  "plugins": [ "react" ],
+  "extends": [
+    "standard",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:react/all"
+  ],
   "rules": {
     "comma-dangle": [2, "always-multiline"],
+    "object-curly-spacing": [2, "always"],
+    "react/forbid-component-props": [0],
+    "react/jsx-max-props-per-line": [2, { "maximum": 3 }],
+    "react/no-set-state": [0],
+    "react/jsx-sort-props": [1],
+    "react/require-optimization": [1]
   },
   "ecmaFeatures": {
     "arrowFunctions": true,
