@@ -16,6 +16,7 @@ module.exports = {
     "react/jsx-sort-props": [1],
     "react/require-optimization": [1],
     "react/jsx-no-bind": [1, { "allowArrowFunctions": true }],
+    "react/require-default-props": [0],
   },
   "ecmaFeatures": {
     "arrowFunctions": true,
