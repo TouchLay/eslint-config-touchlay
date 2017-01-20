@@ -14,7 +14,8 @@ module.exports = {
     "react/jsx-max-props-per-line": [2, { "maximum": 3 }],
     "react/no-set-state": [0],
     "react/jsx-sort-props": [1],
-    "react/require-optimization": [1]
+    "react/require-optimization": [1],
+    "react/jsx-no-bind": [1, { "allowArrowFunctions": true }],
   },
   "ecmaFeatures": {
     "arrowFunctions": true,
