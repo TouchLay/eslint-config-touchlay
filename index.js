@@ -17,6 +17,7 @@ module.exports = {
     "react/require-optimization": [1],
     "react/jsx-no-bind": [1, { "allowArrowFunctions": true }],
     "react/require-default-props": [0],
+    "react/no-multi-comp": [2, { "ignoreStateless": true }],
   },
   "ecmaFeatures": {
     "arrowFunctions": true,
