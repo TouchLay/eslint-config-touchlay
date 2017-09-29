@@ -18,6 +18,7 @@ module.exports = {
     "react/jsx-no-bind": [1, { "allowArrowFunctions": true }],
     "react/require-default-props": [0],
     "react/no-multi-comp": [2, { "ignoreStateless": true }],
+    "react/jsx-curly-brace-presence": [0],
   },
   "ecmaFeatures": {
     "arrowFunctions": true,
