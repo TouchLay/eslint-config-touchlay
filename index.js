@@ -1,6 +1,7 @@
 module.exports = {
   "parser": "babel-eslint",
-  "extends": [ "standard", "standard-react" ],
+  "extends": [ "standard", "standard-react", "plugin:flowtype/recommended" ],
+  "plugins": [ "standard", "react", "flowtype", "jest" ],
   "rules": {
     "comma-dangle": [2, "always-multiline"],
     "object-curly-spacing": [2, "always"],
