@@ -3,7 +3,13 @@ module.exports = {
   "extends": [ "standard", "standard-react", "plugin:flowtype/recommended" ],
   "plugins": [ "standard", "react", "flowtype", "jest" ],
   "rules": {
-    "comma-dangle": [2, "always-multiline"],
+    "comma-dangle": [2, {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "never"
+    }],
     "object-curly-spacing": [2, "always"],
     "react/forbid-component-props": [0],
     "react/jsx-max-props-per-line": [2, { "maximum": 3 }],
