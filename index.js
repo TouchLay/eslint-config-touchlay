@@ -20,6 +20,7 @@ module.exports = {
     "react/require-default-props": [0],
     "react/no-multi-comp": [2, { "ignoreStateless": true }],
     "react/jsx-curly-brace-presence": [0],
+    "react/jsx-curly-newline": [1, { multiline: "consistent", singleline: "consistent" }]
   },
   "env": {
     "es6": true,
