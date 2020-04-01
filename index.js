@@ -11,6 +11,7 @@ module.exports = {
       "functions": "never"
     }],
     "object-curly-spacing": [2, "always"],
+    "array-bracket-spacing": [2, "always", { "singleValue": false }],
     "react/forbid-component-props": [0],
     "react/jsx-max-props-per-line": [2, { "maximum": 3 }],
     "react/no-set-state": [0],

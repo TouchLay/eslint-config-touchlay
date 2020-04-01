@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-touchlay",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TouchLay eslint config",
   "homepage": "https://github.com/TouchLay/eslint-config-touchlay",
   "main": "index.js",
