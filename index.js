@@ -23,13 +23,13 @@ module.exports = {
     "react/jsx-curly-brace-presence": [0],
     "react/jsx-curly-newline": [1, { multiline: "consistent", singleline: "consistent" }],
     // https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
-    "no-danger": "warn",
-    "no-find-dom-node": "warn",
-    "jsx-no-script-url": "warn",
-    "jsx-no-target-blank": "warn",
-    "jsx-props-no-spreading": "warn",
+    "react/no-danger": "warn",
+    "react/no-find-dom-node": "warn",
+    "react/jsx-no-script-url": "warn",
+    "react/jsx-no-target-blank": "warn",
+    "react/jsx-props-no-spreading": "warn",
     // https://github.com/snyk-labs/eslint-plugin-react-security
-    "no-refs": "warn",
+    "react-security/no-refs": "warn",
     // https://github.com/mozilla/eslint-plugin-no-unsanitized
     "no-unsanitized/method": "error",
     "no-unsanitized/property": "error",
