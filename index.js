@@ -27,7 +27,6 @@ module.exports = {
     "react/no-find-dom-node": "warn",
     "react/jsx-no-script-url": "warn",
     "react/jsx-no-target-blank": "warn",
-    "react/jsx-props-no-spreading": "warn",
     // https://github.com/snyk-labs/eslint-plugin-react-security
     "react-security/no-refs": "warn",
     // https://github.com/mozilla/eslint-plugin-no-unsanitized
