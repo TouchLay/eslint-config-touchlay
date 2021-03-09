@@ -1,5 +1,5 @@
 module.exports = {
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "extends": [ "standard", "standard-react", "plugin:flowtype/recommended" ],
   "plugins": [ "standard", "react", "flowtype", "jest", "react-security", "no-unsanitized" ],
   "rules": {
