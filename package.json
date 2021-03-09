@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-touchlay",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "TouchLay eslint config",
   "homepage": "https://github.com/TouchLay/eslint-config-touchlay",
   "main": "index.js",
@@ -41,8 +41,6 @@
     "@babel/core": "^7.13.10",
     "@babel/eslint-parser": "^7.13.10",
     "eslint": "^7.21.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-config-standard-react": "^11.0.1",
     "eslint-plugin-flowtype": "^5.3.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.1.10",
