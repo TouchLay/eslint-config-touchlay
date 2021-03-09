@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-touchlay",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "TouchLay eslint config",
   "homepage": "https://github.com/TouchLay/eslint-config-touchlay",
   "main": "index.js",
@@ -37,6 +37,7 @@
     "typescript": "^4.2.3"
   },
   "peerDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.21.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-config-standard-react": "^11.0.1",
