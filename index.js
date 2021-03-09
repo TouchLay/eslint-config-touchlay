@@ -1,6 +1,6 @@
 module.exports = {
   "parser": "@babel/eslint-parser",
-  "extends": [ "standard", "standard-react", "plugin:flowtype/recommended" ],
+  "extends": [ "standard", "standard-react", "plugin:flowtype/recommended", "plugin:react/recommended" ],
   "plugins": [ "react", "flowtype", "jest", "react-security", "no-unsanitized" ],
   "rules": {
     "comma-dangle": [2, {
@@ -35,10 +35,5 @@ module.exports = {
   },
   "env": {
     "es6": true,
-  },
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    }
   }
 }
