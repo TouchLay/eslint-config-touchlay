@@ -8,6 +8,14 @@ StandardJS with ES6 features, babel, JSX, [eslint-plugin-react](https://github.c
 
 ```
 npm install --save-dev eslint-config-touchlay
+npx install-peerdeps --dev eslint-config-touchlay
+```
+
+or with `yarn`:
+
+```
+yarn add --dev eslint-config-touchlay
+yarn install-peerdeps --dev eslint-config-touchlay
 ```
 
 ## Use
